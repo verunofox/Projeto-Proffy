@@ -1,0 +1,64 @@
+/* CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, 
+significa Folha de Estilo em Cascatas. */
+
+:root{
+    --color-background: #F0F0F7; /* Vareaveis css*/
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #5c4a88;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-small-info: #C1BCCC;
+    font-size: 60% ;  /* controles das medidas rem*/
+    /* medidas de size 100% da pag é o mesmo que 16 px 1 rem ou 100%
+    Tenha em mente que tanto rem quanto a porcetagem sao relativas ja o pixel é uma unidade
+    forte  use am para ser relativo ao filho */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100vh; /* heigth = Altura   vh Viw port = visualização da altura */
+}
+body{
+    
+    background-color:var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body,
+input,
+button,
+textarea{
+    font: 500 1.6rem Poppins; /*  font-weight:500 ;+ font-size:  1.6ram;+ font-family: Poppins;*/
+    color: var(--color-text-base);
+}
+#container{
+    width: 90vw ;  /*  largura de 90 viw port=visualizçao da largura em 90 quadradinhos */
+    max-width: 700px; /* vai ter no maximo 700 pixel de largura*/
+   
+
+
+}
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;/* todo 1rem vai ser relaticvo a 10px*/
+    }
+}
