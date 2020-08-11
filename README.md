@@ -9,4 +9,4 @@ O NLW é um evento com muito código, desafios, networking e um único objetiv
 [![Projeto-proffy](http://img.youtube.com/vi/lIHPJDvdFxo/0.jpg)](http://www.youtube.com/watch?v=lIHPJDvdFxo "Introdução e Explicação sobre o projeto")
 
 
-[Meu linkedin](https://www.linkedin.com/in/leandro-alves-2a2479122/)
+[Meu linkedin](www.linkedin.com/in/verunofox)
